@@ -1,13 +1,14 @@
 package br.com.casje.strategy;
 
 public class CalculadorDeImpostos {
-	
+
 	public double realizaCalculo(Orcamento orcamento, Imposto impostoQualquer){
-		
-		return impostoQualquer.calcula(orcamento);		
-		
-		// Primeira Versão
+
+		return impostoQualquer.calcula(orcamento);
+
+		// Primeira Versï¿½o
 		/*
+		// TESTE COM O GITHUB
 		if(imposto .equals("ICMS")){
 			double icms = orcamento.getValor() * 0.1;
 			System.out.println(icms);
